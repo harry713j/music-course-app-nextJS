@@ -2,7 +2,7 @@
 import React, { FormEvent, useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background-beam";
 
-function page() {
+export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -50,5 +50,3 @@ function page() {
     </div>
   );
 }
-
-export default page;

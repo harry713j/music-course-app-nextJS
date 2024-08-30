@@ -20,7 +20,7 @@ interface Course {
   image: string;
 }
 
-function page() {
+export default function CoursePage() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h2 className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
@@ -75,5 +75,3 @@ function page() {
     </div>
   );
 }
-
-export default page;
